@@ -40,7 +40,7 @@
 				<artifactId>multi-module-maven-release-plugin</artifactId>
 				<version>3.5-SNAPSHOT</version>
 				<configuration>
-					<dryRun>true</dryRun>
+					<dryRun>false</dryRun>
 					<noChangesAction>ReleaseAll</noChangesAction>
 					<releaseGoals>
 						<releaseGoal>clean</releaseGoal>
