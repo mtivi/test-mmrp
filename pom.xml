@@ -41,6 +41,7 @@
 				<version>3.5-SNAPSHOT</version>
 				<configuration>
 					<releaseGoals>
+						<dryRun>true</dryRun>
 						<releaseGoal>clean</releaseGoal>
 						<releaseGoal>install</releaseGoal>
 					</releaseGoals>
